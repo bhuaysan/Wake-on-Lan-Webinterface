@@ -1,0 +1,140 @@
+/* static/style.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4; /* Light Gray */
+    color: #333; /* Dark Gray */
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #333; /* Dark Gray */
+}
+
+h1 {
+    color: #fff; /* White */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #333; /* Dark Gray */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333; /* Dark Gray */
+}
+
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc; /* Light Gray */
+    border-radius: 4px;
+    background-color: #ffffff; /* White */
+    color: #333; /* Dark Gray */
+}
+
+button {
+    padding: 10px;
+    background-color: #333; /* Dark Gray */
+    color: #ffffff; /* White */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555; /* Darker Gray */
+}
+
+/* Add Dark Mode Toggle if needed */
+/* Include any other styles for dark mode if required */
+
+.banner {
+    background-color: #555; /* Darker Gray */
+    padding: 20px;
+    text-align: center;
+}
+
+.devices-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.devices-table th, .devices-table td {
+    border: 1px solid #ccc; /* Light Gray */
+    padding: 10px;
+    text-align: left;
+}
+
+.devices-table th {
+    background-color: #333; /* Dark Gray */
+    color: #ffffff; /* White */
+}
+
+.add-device {
+    text-align: center;
+}
+
+.add-device form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-device form label {
+    margin-bottom: 5px;
+}
+
+.add-device form input[type="text"] {
+    width: 30%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.add-device form button {
+    width: 30%;
+}
+
+.status-dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.green {
+    background-color: #00AD25; /* Green */
+    align-items: center;
+}
+
+.red {
+    background-color: #CE0000; /* Red */
+    align-items: center;
+}
